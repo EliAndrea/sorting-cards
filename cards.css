@@ -1,0 +1,56 @@
+body{
+    background-color: #0e7e12;
+    margin: 15px;
+}
+span{
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+}
+#cartasInicio{
+    height: 80px;
+    display: inline-block;
+    margin-top: 15px;
+}
+p{
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+}
+input{
+    border-radius: 5px;
+    width: 90px;
+    margin-right: 10px;
+    font-family: 'Righteous', cursive;
+    font-size: 18px;
+}
+button{
+    font-family: 'Righteous', cursive;
+    margin-left: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/*----------Estilo de cartas-----------------
+/*.carta{
+    background-color: #FFFFFF;
+    width: 55px;
+    height: 100%;
+    border: solid 1px gray;
+    border-radius: 5px;
+    margin-left: 4px;
+    display: inline-block;
+    font-size: 20px;
+}
+#simboloArriba{
+    margin-left: 3px;
+}
+#valor{
+    margin-top: 4px;
+    text-align: center;
+}
+#simboloAbajo{
+    margin-right: 3px;
+    margin-top: 11px;
+    transform: rotate(-180deg);
+}
+*/

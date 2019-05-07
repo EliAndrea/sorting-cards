@@ -1,0 +1,30 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+        <link rel="stylesheet" href="cards.css" type="text/css" />
+        <title>Ordenador de Cartas</title>
+    </head>
+    <body>
+        <div id="cabecera">
+            <span>N° de Cartas:</span>
+            <input id="nCartas" type="number">
+            <button id="botonRepartir">Repartir</button>
+            <button id="botonBurbuja">Ordenar estilo burbuja</button>
+            <button id="botonSeleccion">Ordenar por selección</button>
+        </div>
+        <div id="cartasInicio">
+            <div class="carta">
+                <div id="simboloArriba"></div>
+                <div id="valor"></div>
+                <div id="simboloAbajo"></div>
+            </div>
+        </div>
+        <div>
+            <p>Algoritmo de clasificación:</p>
+            <div id="contenedorLog"></div>
+        </div>
+        <script type="text/javascript" src="cards.js"></script>
+    </body>
+</html>
